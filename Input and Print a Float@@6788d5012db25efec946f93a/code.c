@@ -6,6 +6,7 @@ char* welcome(float numb) {
 
 int main() {
     int numb;
+    printf("",numb);
     scanf("%f",&numb);
     printf("%f",welcome(numb));
     return 0;
