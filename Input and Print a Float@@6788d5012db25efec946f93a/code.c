@@ -1,12 +1,12 @@
 #include <stdio.h>
 
-char* welcome(int numb) {
+char* welcome(float numb) {
     printf("You entered: %f",numb);
 }
 
 int main() {
     int numb;
-    scanf("%d",&numb);
-    printf("%d",welcome(numb));
+    scanf("%f",&numb);
+    printf("%f",welcome(numb));
     return 0;
 }
