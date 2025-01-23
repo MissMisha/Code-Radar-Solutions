@@ -5,7 +5,7 @@
 // }
 
 int main() {
-    int numb=0;
+    int numb;
     printf("Enter a number");
     scanf("%d",&numb);
     printf("You entered: %d", numb);
