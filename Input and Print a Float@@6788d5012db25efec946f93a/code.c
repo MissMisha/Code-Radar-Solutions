@@ -1,13 +1,13 @@
 #include <stdio.h>
 
-// char* welcome() {
-//     return "Welcome to Code Radar!";
-// }
+char* welcome(int numb) {
+    printf("You entered: %d",numb);
+}
 
 int main() {
     int numb;
-    printf("Enter a number");
+    printf("enter a numb");
     scanf("%d",&numb);
-    printf("You entered: %d", numb);
+    printf("%d",welcome(numb));
     return 0;
 }
