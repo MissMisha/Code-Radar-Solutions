@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+char* welcome() {
+    return "Welcome to Code Radar!";
+}
+
+int main() {
+    char str1[100];
+    char str2[100];
+    printf("You entered:%sand \n%s",str1,str2);
+    return 0;
+}
