@@ -1,13 +1,9 @@
 #include <stdio.h>
 
-char* welcome(float numb) {
-    printf("You entered: %f",numb);
-}
-
 int main() {
-    int numb;
-    printf("",numb);
+    float numb;
+   
     scanf("%f",&numb);
-    welcome(numb);
+    printf("You entered: %.2f",numb)
     return 0;
 }
