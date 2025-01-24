@@ -9,6 +9,6 @@ int main() {
     char str2[100];
     scanf("%s",&str1);
     scanf("%s",&str2);
-    printf("You entered:%sand \n%s",str1,str2);
+    printf("You entered: %s and \n%s",str1,str2);
     return 0;
 }
