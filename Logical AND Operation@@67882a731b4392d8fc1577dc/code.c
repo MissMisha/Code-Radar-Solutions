@@ -13,6 +13,6 @@ int main() {
     int a,b;
     scanf("%d %d",&a,&b);
     bool resp=welcome(a,b);
-    printf("%d", resp);
+    printf("%b", resp);
     return 0;
 }
