@@ -11,7 +11,7 @@ bool welcome(&a,&b) {
 
 int main() {
     scanf("%d %d",&a,&b);
-    char resp=welcome(a,b);
+    bool resp=welcome(a,b);
     printf("%c", resp);
     return 0;
 }
