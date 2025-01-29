@@ -10,6 +10,7 @@ bool welcome(&a,&b) {
 }
 
 int main() {
+    int a,b;
     scanf("%d %d",&a,&b);
     bool resp=welcome(a,b);
     printf("%c", resp);
