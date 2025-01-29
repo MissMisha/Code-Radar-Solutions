@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdbool.h>
 
 bool welcome(int a,int b) {
    if(a>0 && b>0){
