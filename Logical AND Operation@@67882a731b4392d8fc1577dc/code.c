@@ -2,17 +2,17 @@
 
 bool welcome(int a,int b) {
    if(a>0 && b>0){
-    return true;
+    printf("True");
    }
    else{
-    return false;
+    printf("False");
    }
 }
 
 int main() {
     int a,b;
     scanf("%d %d",&a,&b);
-    bool resp=welcome(a,b);
-    printf("%b", resp);
+    welcome(a,b);
+    
     return 0;
 }
