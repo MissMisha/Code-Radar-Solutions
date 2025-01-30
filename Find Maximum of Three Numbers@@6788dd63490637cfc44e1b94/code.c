@@ -5,7 +5,7 @@ char* welcome() {
 }
 
 int main() {
-    int a,b,c;
+    int a,b,c,max;
     scanf("%d %d %d",&a,&b,&c);
     if(a>b){
         if(a>c){
@@ -22,7 +22,7 @@ int main() {
             {
             max=c;
             }
-
+    printf("%d",max);
 
     }
     printf("%s", welcome());
