@@ -5,7 +5,7 @@ char* welcome() {
 }
 
 int main() {
-    char input;
+    char input[100];
     scanf("%c",&input);
     int ascii=char;
     if(ascii>=65 && ascii<=90){
