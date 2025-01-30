@@ -14,8 +14,7 @@ int main() {
         else{
             max=c;
         }
-    }else{
-        if(b>c){
+    }else if(b>c){
             max=b;
         }
         else
@@ -26,4 +25,5 @@ int main() {
 
     }
     return 0;
+
 }
