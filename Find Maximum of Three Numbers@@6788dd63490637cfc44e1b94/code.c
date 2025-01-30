@@ -18,13 +18,14 @@ int main() {
             max=b;
         }
         else
-            {
             max=c;
-            }
+            
     printf("%d",max);
 
     
     return 0;
 }
+
+
 
 }
