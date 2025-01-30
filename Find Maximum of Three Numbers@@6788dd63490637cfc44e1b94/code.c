@@ -25,6 +25,5 @@ int main() {
     printf("%d",max);
 
     }
-    printf("%s", welcome());
     return 0;
 }
