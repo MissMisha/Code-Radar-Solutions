@@ -8,6 +8,11 @@ int main() {
     int a;
     scanf("%d",&a);
     int lsb= a & (-a);
-    printf("%d", lsb);
+    if(lsb==1){
+        printf("Set");
+    }
+    else{
+        printf("Not Set");
+    }
     return 0;
 }
