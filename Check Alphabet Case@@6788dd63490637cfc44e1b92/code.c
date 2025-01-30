@@ -11,7 +11,7 @@ int main() {
     if(ascii>=65 && ascii<=90){
         printf("Uppercase");
     }
-    else{
+    else if(ascii>=97 && ascii<=122){
         printf("Lowercase");
     }
     
