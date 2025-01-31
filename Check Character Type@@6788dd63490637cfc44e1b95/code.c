@@ -1,13 +1,9 @@
 #include <stdio.h>
 
-char* welcome() {
-    return "Welcome to Code Radar!";
-}
-
 int main() {
-    char ch;
-    scanf("%c",&ch);
-    ch=tolower(ch);
+    char input;
+    scanf("%c",&input);
+    char ch=tolower(input);
     if(ch>='a' && ch<='z'){
         if(ch=='a' || ch=='e' || ch=='i' || ch=='o' || ch=='u' ){
             printf("Vowel");
