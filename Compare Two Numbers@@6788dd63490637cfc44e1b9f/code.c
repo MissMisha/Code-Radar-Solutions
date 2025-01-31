@@ -16,6 +16,6 @@ int main() {
     else{
         printf("Second");
     }
-    printf("%s", welcome());
+   
     return 0;
 }
