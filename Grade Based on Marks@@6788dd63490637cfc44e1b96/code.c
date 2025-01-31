@@ -6,7 +6,7 @@ char* welcome() {
 
 int main() {
     int marks;
-    scanf("%d",&nmarks);
+    scanf("%d",&marks);
     if(marks>=90){
         printf("A");
     }
@@ -22,6 +22,6 @@ int main() {
     else{
         printf("F");
     }
-    printf("%s", welcome());
+    
     return 0;
 }
