@@ -5,7 +5,7 @@ char* welcome() {
 }
 
 int main() {
-    int ch;
+    char ch;
     scanf("%c",&ch);
     if(ch>='a' && ch<='z'){
         ch=tolower(ch);
