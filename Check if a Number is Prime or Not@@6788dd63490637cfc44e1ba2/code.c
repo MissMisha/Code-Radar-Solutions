@@ -2,7 +2,7 @@
 
 int main() {
     int num=0,flag=1;
-    for(i=0;i<=num/2;i++){
+    for(int i=0;i<=num/2;i++){
         if(num%i==0){
             flag=0;
         }
