@@ -8,8 +8,6 @@ int main() {
     int x;
     scanf("%d",&x);
     switch(x){
-        default:
-        printf("Invalid");
         case 1:
         printf("Monday");
         break;
@@ -37,6 +35,9 @@ int main() {
         case 7:
         printf("Sunday");
         break;
+    }
+    else{
+        printf("Invalid");
     }
     return 0;
 }
