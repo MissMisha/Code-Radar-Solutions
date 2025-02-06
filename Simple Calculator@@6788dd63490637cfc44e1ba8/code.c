@@ -22,7 +22,9 @@ int main() {
         break;
 
         case '/':
-        ans=a/b;
+        if(b!=0){
+            ans=a/b;
+        }
         printf("%d",ans);
         break;
     }
