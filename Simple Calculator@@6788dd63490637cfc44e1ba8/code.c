@@ -25,6 +25,10 @@ int main() {
         if(b!=0){
             ans=a/b;
         }
+        else{
+            printf("error");
+            break;
+        }
         printf("%d",ans);
         break;
     }
