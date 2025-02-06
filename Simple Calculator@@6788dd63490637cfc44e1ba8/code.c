@@ -10,15 +10,19 @@ int main() {
     switch(op){
         case '+':
         ans=a+b;
+        break;
 
         case '-':
         ans=a-b;
+        break;
 
         case '*':
         ans=a*b;
+        break;
 
         case '/':
         ans=a/b;
+        break;
     }
     printf("%d",ans);
     return 0;
