@@ -6,7 +6,7 @@ char* welcome() {
 
 int main() {
     int a,b,op,ans=0;
-    scanf("%d %d %d",&a,&b,&c);
+    scanf("%d %d %d",&a,&b,&op);
     switch(op){
         case '+':
         ans=a+b;
