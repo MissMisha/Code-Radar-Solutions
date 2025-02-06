@@ -36,8 +36,6 @@ int main() {
         printf("Sunday");
         break;
     }
-    else{
-        printf("Invalid");
-    }
+    printf("Invalid")
     return 0;
 }
