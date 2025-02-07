@@ -15,6 +15,6 @@ int main() {
         }
         printf("\n");
     }
-    printf("%s", welcome());
+    
     return 0;
 }
