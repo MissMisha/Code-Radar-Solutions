@@ -7,9 +7,9 @@ char* welcome() {
 int main() {
     int n;
     scanf("%d",&n);
-    for(int i=65;i<=65+n;i++){
-        for(int j=65;j<=c+65;j++){
-            printf("%c",j);
+    for(int i=1;i<=n;i++){
+        for(int j=1;j<=i;j++){
+            printf("%c",j+65-1);
         }
         printf("\n");
     }
