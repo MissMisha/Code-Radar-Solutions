@@ -7,11 +7,13 @@ char* welcome() {
 int main() {
     int n;
     scanf("%d",&n);
-    int c=1;
     for(int i=65;i<=65+n;i++){
-        for(int j=65;j<=c;j++){
+        int c=1;
+        while(c<=n){
+        for(int j=65;j<=c+65;j++){
             printf("%c",j);
-            c++;
+        }
+        c++;
         }
         printf("\n");
     }
