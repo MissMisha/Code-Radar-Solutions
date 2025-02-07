@@ -11,7 +11,7 @@ int main() {
     for(int i=65;i<=65+n;i++){
         for(int j=65;j<=65+c;j++){
             printf("%c",j);
-            j++;
+            c++;
         }
         printf("\n");
     }
