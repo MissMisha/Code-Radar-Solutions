@@ -16,9 +16,10 @@ int main() {
             else{
                 printf("0 ");
             } 
-            c++;  
+            c++; 
+            printf("\n"); 
     }  
-    printf("\n");
+    
    
     return 0;
 }
