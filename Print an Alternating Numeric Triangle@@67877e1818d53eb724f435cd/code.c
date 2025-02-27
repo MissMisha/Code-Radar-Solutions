@@ -19,5 +19,6 @@ int main() {
             c++;  
     }  
     printf("\n");
-   }
+   
     return 0;
+}
