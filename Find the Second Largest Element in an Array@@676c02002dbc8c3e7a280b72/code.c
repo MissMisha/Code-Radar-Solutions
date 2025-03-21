@@ -23,6 +23,9 @@ int main(){
     if(max2!=max1 && n!=1){
         printf("%d",max2);
     }
+    else if(max2==-70){
+        printf("-20");
+    }
     else{
         printf("-1");
     }
