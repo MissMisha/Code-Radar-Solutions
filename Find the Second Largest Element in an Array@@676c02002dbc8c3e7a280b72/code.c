@@ -11,11 +11,11 @@ int main(){
     int max1=arr[0];
     int max2=arr[1];
     for(int i=0;i<n;i++){
-        if(n==1){
+    if(n==1){
         printf("-1");
         break;    
      }
-     else if(max1<arr[i]){
+      if(max1<arr[i]){
             max2=max1;
              max1=arr[i];
         }
