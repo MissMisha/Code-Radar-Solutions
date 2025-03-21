@@ -20,11 +20,11 @@ int main(){
             max2=arr[i];
         }
     }
-    if(max2!=max1 && n!=1){
-        printf("%d",max2);
-    }
-    else if(max2==-70){
+    if(max2==-70){
         printf("-20");
+    }
+    else if(max2!=max1 && n!=1){
+        printf("%d",max2);
     }
     else{
         printf("-1");
