@@ -12,8 +12,9 @@ int main(){
     for(int i=0;i<n;i++){
         if(max1<arr[i]){
             max1=arr[i];
+            max2=max1;
         }
-        if(max2<max1 && max2>arr[i]){
+        else if(max2<max1 && max2>arr[i]){
             max2=arr[i];
         }
     }
