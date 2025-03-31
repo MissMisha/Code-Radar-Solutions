@@ -4,6 +4,7 @@ int main(){
     int n,k;
     scanf("%d",&n);
     int arr[n];
+    int arr2[n];
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
@@ -11,11 +12,11 @@ int main(){
     
     for(int i=0;i<n;i++){
         int ind=(i+k)%n;
-        arr[ind]=arr[i];
-        printf("%d to %d\n",arr[i],arr[ind]);
+        arr2[ind]=arr[i];
+        
     }
     for(int i=0;i<n;i++){
-        //printf("%d",arr[i]);
+        printf("%d",arr2[i]);
     }
     
 }
