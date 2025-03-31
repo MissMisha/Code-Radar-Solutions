@@ -3,22 +3,26 @@
 int main(){
     int n;
     scanf("%d",&n);
-    int arr[n];
+    int arr[100];
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int freq[n];
+    int freq[100];
     for(int i=0;i<n;i++){
-        freq[i]=0;
+        freq[i]=-1;
     }
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
     for(int i=0;i<n;i++){
+        count=1;
         for(int j=0;j<n;j++){
             if(arr[i]==arr[j]){
-                freq[i]++;
+                count++;
             }
+        }
+        if(count!=0){
+            freq[i]=count;
         }
     }
     for(int i=0;i<n;i++){
