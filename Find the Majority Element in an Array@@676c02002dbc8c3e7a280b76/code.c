@@ -8,7 +8,7 @@ int main(){
         scanf("%d",&arr[i]);
     }
     for(int i=0;i<n;i++){
-        freq[i]=-1;
+        freq[i]=0;
     }
     for(int i=0;i<n;i++){
         if(freq[i]==-1){
