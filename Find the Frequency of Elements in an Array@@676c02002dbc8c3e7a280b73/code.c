@@ -27,7 +27,7 @@ int main(){
             freq[i]=count;
         }
     }
-    for(int i=n;i>=0;i--){
+    for(int i=n-1;i>=0;i--){
         if(freq[i]!=0){
             printf("%d %d\n",arr[i],freq[i]);
         }
