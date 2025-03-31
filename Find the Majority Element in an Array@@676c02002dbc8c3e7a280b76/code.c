@@ -26,8 +26,8 @@ int main(){
         }
     }
     for(int i=0;i<n;i++){
-        if(freq[i]>n/2){
+        
             printf("%d",freq[i]);
-        }
+        
     }
 }
