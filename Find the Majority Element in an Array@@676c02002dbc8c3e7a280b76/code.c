@@ -28,7 +28,7 @@ int main(){
     int flag=0;
     for(int i=0;i<n;i++){
         if(freq[i]>n/2){
-            printf("%d\n",freq[i]);
+            printf("%d\n",arr[i]);
             flag=1;
         }      
     }
