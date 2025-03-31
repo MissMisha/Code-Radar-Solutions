@@ -13,7 +13,8 @@ int main(){
            break;
         }
         if(i==n-1 && peak==0 && arr[i]>arr[i-1]){
-            printf("%d",arr[i]);
+            peak=arr[i];
+            break;
         }
     }
     if(peak!=0){
