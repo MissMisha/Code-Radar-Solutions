@@ -30,7 +30,7 @@ int main(){
             printf("%d\n",freq[i]);
         }
         else{
-            return -1;
+            printf("-1");
         }
             
         
