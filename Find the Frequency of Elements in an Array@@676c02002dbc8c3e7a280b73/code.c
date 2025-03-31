@@ -29,7 +29,7 @@ int main(){
     }
     for(int i=n;i>=0;i--){
         if(freq[i]!=0){
-            printf("%d\n",freq[i]);
+            printf("%d %d\n",arr[i],freq[i]);
         }
     }
 }
