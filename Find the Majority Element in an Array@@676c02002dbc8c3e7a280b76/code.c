@@ -29,6 +29,9 @@ int main(){
         if(freq[i]>n/2){
             printf("%d\n",freq[i]);
         }
+        else{
+            return -1;
+        }
             
         
     }
