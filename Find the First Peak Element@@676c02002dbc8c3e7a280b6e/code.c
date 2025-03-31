@@ -12,10 +12,11 @@ int main(){
             peak=arr[i];
            break;
         }
-        
+        if(i==n-1 && peak==0 && arr[i]>arr[i-1]){
+            printf("%d",arr[i]);
+        }
     }
     if(peak!=0){
-
     printf("%d",peak);
     }
     else{
