@@ -8,11 +8,11 @@ int main(){
         scanf("%d",&arr[i]);
     }
     for(int i=0;i<n;i++){
-        freq[i]=0;
+        freq[i]=-1;
     }
     for(int i=0;i<n;i++){
         if(freq[i]==-1){
-        count=1;
+        count=0;
         for(int j=0;j<n;j++){
             if(arr[i]==arr[j]){
                 count++;
