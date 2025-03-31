@@ -19,7 +19,7 @@ int main(){
                 freq[j]=0;
             }
         }
-        if(freq[i]!=0){
+        if(freq[i]>n/2){
             freq[i]=count;
         }
     }
