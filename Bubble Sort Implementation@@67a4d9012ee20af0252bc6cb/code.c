@@ -2,11 +2,11 @@
 void bubbleSort(int* arr[],int n){
     int temp;
     for(int i=0;i<n;i++){
-        for(int i=0;i<n;i++){
-           if(arr[i]>arr[i+1]){
-            temp=arr[i];
-            arr[i+1]=arr[i];
-            arr[i]=temp;
+        for(int j=0;j<n;j++){
+           if(arr[j]>arr[j+1]){
+            temp=arr[j];
+            arr[j+1]=arr[j];
+            arr[ij]=temp;
            }
         }
     }
