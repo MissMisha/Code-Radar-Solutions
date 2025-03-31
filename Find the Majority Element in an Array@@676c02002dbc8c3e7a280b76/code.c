@@ -25,10 +25,14 @@ int main(){
         }
         }
     }
+    int flag=0;
     for(int i=0;i<n;i++){
         if(freq[i]>n/2){
             printf("%d\n",freq[i]);
+            flag=1;
         }      
     }
+   if(flag==0){
     printf("-1");
+   }
 }
