@@ -7,7 +7,10 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int freq[n]={0};
+    int freq[n];
+    for(int i=0;i<n;i++){
+        freq[i]=0;
+    }
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
