@@ -27,7 +27,7 @@ int main(){
     }
     for(int i=0;i<n;i++){
         
-            printf("%d",freq[i]);
+            printf("%d\n",freq[i]);
         
     }
 }
