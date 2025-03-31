@@ -22,6 +22,8 @@ int main(){
         }
     }
     for(int i=0;i<n;i++){
-        printf("%d\n",freq[i]);
+        if(freq[i]!=0){
+            printf("%d\n",freq[i]);
+        }
     }
 }
