@@ -14,6 +14,6 @@ int main(){
         new[ind]=arr[i];
     }
     for(int i=0;i<n;i++){
-        printf("%d",new[i]);
+        printf("%d ",new[i]);
     }
 }
