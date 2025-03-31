@@ -11,9 +11,7 @@ int main(){
     for(int i=0;i<n;i++){
         freq[i]=-1;
     }
-    for(int i=0;i<n;i++){
-        scanf("%d",&arr[i]);
-    }
+   
     for(int i=0;i<n;i++){
         count=0;
         for(int j=0;j<n;j++){
@@ -23,9 +21,9 @@ int main(){
                 freq[j]=0;
             }
         }
-        if(count!=0){
+        
             freq[i]=count;
-        }
+        
     }
     for(int i=0;i<n;i++){
         if(freq[i]!=0){
