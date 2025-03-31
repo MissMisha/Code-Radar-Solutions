@@ -11,6 +11,7 @@ int main(){
         freq[i]=-1;
     }
     for(int i=0;i<n;i++){
+        if(freq[i]==-1){
         count=1;
         for(int j=0;j<n;j++){
             if(arr[i]==arr[j]){
@@ -19,12 +20,13 @@ int main(){
                 freq[j]=0;
             }
         }
-        if(freq[i]>n/2){
+        if(freq!=0){
             freq[i]=count;
+        }
         }
     }
     for(int i=0;i<n;i++){
-        if(freq[i]!=0){
+        if(freq>n/2){
             printf("%d",freq[i]);
         }
     }
