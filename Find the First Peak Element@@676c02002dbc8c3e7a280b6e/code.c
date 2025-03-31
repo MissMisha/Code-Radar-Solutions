@@ -9,4 +9,5 @@ int main(){
             peak=arr[i];
         }
     }
+    printf("%d",peak);
 }
