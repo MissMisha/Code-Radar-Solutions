@@ -13,7 +13,7 @@ int main(){
     }
    
     for(int i=0;i<n;i++){
-        if(freq==-1){
+        if(freq[i]==-1){
         count=0;
         for(int j=0;j<n;j++){
             if(arr[i]==arr[j]){
