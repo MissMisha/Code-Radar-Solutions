@@ -8,9 +8,9 @@ int main(){
         scanf("%d",&arr[i]);
     }
     int arr[n];
-    for(int i=0;i<arr.size();i++){
+    for(int i=0;i<n;i++){
             int max=0;
-            for(int j=i+1;j<arr.size();j++){
+            for(int j=i+1;j<n;j++){
                 max=arr[i+1];
                 if(arr[j]>max){
                     max=arr[j];
